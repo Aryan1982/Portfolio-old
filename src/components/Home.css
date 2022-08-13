@@ -1,0 +1,67 @@
+body{
+  height: 700px;
+}
+.instagram{
+    color: white;
+    position: absolute;
+    top: 550px;
+    left: 35px;
+    border-color: white;
+    border-width: 2.5px;
+    border-style: solid;
+    border-radius: 25%;
+    width: 50px;
+    height: 50px;
+  }
+  .circle{
+    color: white;
+    position: absolute;
+    top: 13px;
+    left: 25%;
+    border-color: white;
+    border-width: 2.5px;
+    border-style: solid;
+    height: 20px ;
+    width: 20px;
+    border-radius: 50%;
+  }
+  .smallcircle{
+    border-style: solid;
+    border-color: white;
+    position: absolute;
+    border-width: 4px ;
+    top: 5px;
+    right: 5px;
+    border-radius: 50%;
+    
+
+  }
+  .linkdin:hover,
+  .instagram:hover{
+    width: 52px;
+    height: 52px;
+    border-color: magenta;
+    transition: 0.15s;
+
+  }
+  .linkdin{
+    color: white;
+    position: absolute;
+    top: 550px;
+    left: 110px;
+    border-color: white;
+    border-width: 2.5px;
+    border-style: solid;
+    border-radius: 25%;
+    width: 50px;
+    height: 50px;
+   }
+  .in{
+    position: absolute;
+    font-size: 45px;
+    left: 5px;
+
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: normal;
+  }

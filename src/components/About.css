@@ -1,0 +1,75 @@
+
+.intro h1{
+    font-size: 50px;
+    position: absolute;
+     color: white;
+     top: 100px;
+     left: 50px;
+     
+    }
+    .intro p{
+     font-family:monospace;
+     position: absolute;
+     color: white;
+     top: 200px;
+     font-size: 25px;
+     left: 40px;
+     text-align: left;
+    }
+
+  .lightblue{
+    color: rosybrown;
+  }
+  .cyan{
+    color: cyan;
+    }
+
+.skills h1{
+    font-size: 50px;
+    position: absolute;
+     color:white;
+     text-decoration: underline;
+     top: 600px;
+     left: 50px;
+}
+.skillitem{
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+  width: 100px;
+  position: relative;
+  top: 750px;
+  left: 20px;
+}
+.skill{
+  left: 10px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: purple;
+  margin-bottom: 20px;
+}
+.padding{
+  padding-bottom: 40px;
+}
+.hundred{
+  width: 300px;
+}
+.fifty{
+  width: 150px;
+}
+
+.t5{
+  width: 75px;
+}
+.seventy5{
+  width: 225px;
+}
+
+.avatar{
+  height: 400px;
+   position: absolute;
+  top: 190px;
+  right: 20px;
+  z-index: 1;
+}

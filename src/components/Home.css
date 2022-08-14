@@ -16,13 +16,13 @@ body{
   .circle{
     color: white;
     position: absolute;
-    top: 13px;
+    top: 25%;
     left: 25%;
     border-color: white;
     border-width: 2.5px;
     border-style: solid;
-    height: 20px ;
-    width: 20px;
+    height: 40% ;
+    width: 40%;
     border-radius: 50%;
   }
   .smallcircle{
@@ -58,10 +58,36 @@ body{
    }
   .in{
     position: absolute;
-    font-size: 45px;
-    left: 5px;
+    font-size: 280%;
+    left: 12%;
 
     font-family: sans-serif;
     font-weight: bold;
     font-style: normal;
   }
+
+@media only screen and (max-width:786px){
+  .instagram{
+    top: 300px;
+    height: 40px;
+    width: 40px;
+  }
+  .smallcircle{
+    border-width: 2px;
+  }
+  .linkdin{
+    top: 300px;
+    left: 100px;
+    height: 40px;
+    width: 40px;
+    
+  }
+  .in{
+    font-size: 37px;
+  }
+  .instagram:hover,
+  .linkdin:hover{
+    height: 42px;
+    width: 42px;
+  }
+}
